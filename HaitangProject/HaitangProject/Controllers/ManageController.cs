@@ -20,6 +20,7 @@ namespace HaitangProject.Controllers
         {
             Console.WriteLine("this is test");
             Console.WriteLine("Login Complete!");
+            Console.WriteLine("Create a feartue");
         }
 
         public ManageController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
