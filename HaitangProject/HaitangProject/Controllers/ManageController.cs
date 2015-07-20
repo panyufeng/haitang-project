@@ -18,6 +18,7 @@ namespace HaitangProject.Controllers
 
         public ManageController()
         {
+            Console.WriteLine("this is test");
         }
 
         public ManageController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
