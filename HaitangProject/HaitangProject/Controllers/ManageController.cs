@@ -19,6 +19,7 @@ namespace HaitangProject.Controllers
         public ManageController()
         {
             Console.WriteLine("this is test");
+            Console.WriteLine("Login Complete!");
         }
 
         public ManageController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
